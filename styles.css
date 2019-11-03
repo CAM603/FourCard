@@ -10,6 +10,10 @@
     margin: 0 auto;
     border: 1px solid red;
     padding: 20px 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 /* Top Section */
 .top{
@@ -19,17 +23,52 @@
     align-items: center;
     border: solid black 1px;
 }
+.top div{
+    height: 75px;
+}
 .top p{
     text-align: center;
 }
 /* Middle Boxes */
 .middle{
+    height: 800px;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    min-width: 1200px;
+    border: solid green 2px;
 }
 .middle .box{
     border: solid black 1px;
-    width: 33%;
+    min-width: 400px;
+    width: 80%;
     height: 300px;
+}
+.boxOne{
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+.boxTwo{
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxThree{
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    width: 33%;
+    justify-content: center;
+}
+
+/* Footer Section */
+footer{
+    display:flex;
+    justify-content: center;
 }
 
