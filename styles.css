@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border: solid black 1px;
+}
+body{
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+}
+/**************** Header ******************/
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+header p{
+    text-align: center;
+}
+
+/***************** Big Box Container *******************/
+.big_box{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/***************** Third Boxes *******************/
+.third{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+.one, .three{
+    align-items: center;
+}
+.two{
+    flex-direction: column;
+    justify-content: space-between;
+}
+/***************** Individual Boxes *******************/
+.box{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box img{
+    height: 50%;
+    width: 50%;
+    align-self: flex-end;
+}
